@@ -90,7 +90,6 @@ gallery.addEventListener('click', (event) => {
 
   if (targetElement.tagName === 'IMG') {
     const largeImageUrl = targetElement.dataset.source;
-    console.log(largeImageUrl);
    
     const instance = basicLightbox.create(`
       <img src="${largeImageUrl}" alt="${targetElement.alt}">
